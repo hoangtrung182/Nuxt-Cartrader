@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "name": "BMW 1",
+        "make": "BMW",
+        "price": "50.000",
+        "year": 2016,
+        "city": "Ha Noi",
+        "url": "https://picsum.photos/250/300",
+        "seats": 5,
+        "miles": "4000",
+        "features": "Good, modern, sligth",
+        "description": "lorem ipsum dolor sit amet, consectet"
+    },
+    {
+        "id": 2,
+        "name": "Audi 1",
+        "make": "Audi",
+        "price": "56.000",
+        "year": 2017,
+        "city": "Ha Noi",
+        "url": "https://picsum.photos/250/300",
+        "seats": 3,
+        "miles": "4000",
+        "features": "Good, modern, sligth",
+        "description": "lorem ipsum dolor sit amet, consectet"
+    },
+    {
+        "id": 3,
+        "name": "Mercedes 10",
+        "make": "Mess",
+        "price": "100.000",
+        "year": 2014,
+        "city": "Ha Noi",
+        "url": "https://picsum.photos/250/300",
+        "seats": 6,
+        "miles": "4000",
+        "features": "Good, modern, sligth",
+        "description": "lorem ipsum dolor sit amet, consectet"
+    }
+]

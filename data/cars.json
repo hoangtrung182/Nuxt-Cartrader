@@ -1,0 +1,54 @@
+{
+    "cars": [
+        {
+            "id": "1",
+            "name": "Mercedes",
+            "price": "1999",
+            "seats": "4",
+            "miles": "18223",
+            "url": "https://picsum.photos/250/300",
+            "features": ["Good", "Cheap", "Modern"],
+            "description": "lorem ipsum dolor sit amet, consectetur"
+        },
+        {
+            "id": "2",
+            "name": "Mercedes 2",
+            "price": "9922",
+            "seats": "4",
+            "miles": "18223",
+            "url": "https://picsum.photos/250/300",
+            "features": ["Good", "Cheap", "Modern"],
+            "description": "lorem ipsum dolor sit amet, consectetur"
+        },
+        {
+            "id": "3",
+            "name": "Mercedes 3",
+            "price": "19919",
+            "seats": "4",
+            "miles": "18223",
+            "url": "https://picsum.photos/250/300",
+            "features": ["Good", "Cheap", "Modern"],
+            "description": "lorem ipsum dolor sit amet, consectetur"
+        },
+        {
+            "id": "4",
+            "name": "Mercedes 4",
+            "price": "1999",
+            "seats": "4",
+            "miles": "18223",
+            "url": "https://picsum.photos/250/300",
+            "features": ["Good", "Cheap", "Modern"],
+            "description": "lorem ipsum dolor sit amet, consectetur"
+        },
+        {
+            "id": "5",
+            "name": "Mercedes 5",
+            "price": "1999",
+            "seats": "4",
+            "miles": "18223",
+            "url": "https://picsum.photos/250/300",
+            "features": ["Good", "Cheap", "Modern"],
+            "description": "lorem ipsum dolor sit amet, consectetur"
+        }
+    ]
+}
