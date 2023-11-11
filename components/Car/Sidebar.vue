@@ -9,7 +9,7 @@ const modal = ref({
     price: false
 })
 
-const searchValue = ref('Ottowa');
+const searchValue = ref(route.params.make);
 const priceRange = ref({
     min: '',
     max: ''

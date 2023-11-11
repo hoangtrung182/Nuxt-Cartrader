@@ -22,7 +22,9 @@
   "dependencies": {
     "@nuxt/image-edge": "^1.0.0-28321767.cdc8c2e",
     "@nuxtjs/supabase": "^0.3.8",
+    "@prisma/client": "^5.5.2",
     "@vueuse/nuxt": "^9.6.0",
+    "prisma": "^5.5.2",
     "volar-service-vetur": "^0.0.17"
   }
 }

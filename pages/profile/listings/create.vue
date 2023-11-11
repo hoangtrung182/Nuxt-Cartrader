@@ -2,7 +2,7 @@
 import { inferredPredicate } from '@babel/types';
 
 definePageMeta({
-    layout: 'custom'
+    layout: 'custom',
 })
 
 const { makes } = useCars();
@@ -75,11 +75,10 @@ const onChange = (data, name) => {
 <template>
     <div class="p-3">
         <div class="mt-20">
-            {{ info.make }}
             <h1 class="text-6xl">Create a new listing</h1>
         </div>
         <div class="shadow rounded mt-5 p-2 flex flex-wrap justify-between">
-            <CarAdSelect title="Make *" :options="makes" name="make" @change-input="onChange" />
+            <!-- <CarAdSelect title="Make *" :options="makes" name="make" @change-input="onChange" /> -->
             <CarAdInput v-for="input in inputs" :key="input.id" @change-input="onChange" :input="input" />
             <CarAdTextArea name="description" title="Description *" />
             <CarAdImage @change-input="onChange" />
