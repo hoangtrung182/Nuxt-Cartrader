@@ -19,4 +19,4 @@ watch(() => route.query, () => {
         <CarCards v-if="cars" :cars="cars"/>
         <h2 class="text-red-600" v-else>No found cars with filters</h2>
     </div>
-</template>
+</template> 

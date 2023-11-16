@@ -1,8 +1,8 @@
 export default async (city, filters) => {
     const { data, error } = await useFetch(`/api/cars/${city}`, {
-        params: {
+        params: {   
             ...filters
-        }
+        }   
     });
 
     if(error.value) {
