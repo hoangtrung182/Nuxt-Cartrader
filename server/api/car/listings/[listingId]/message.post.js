@@ -21,9 +21,8 @@ const schema = Joi.object({
 export default defineEventHandler(async (event) => {
   const body = await readBody(event);
   const { listingId } = event.context.params;
-  const { error, value } = schema.validate(body);
+  const { error } = schema.validate(body);
 
-  console.log(value);
   const { name, phone, email, message } = body;
 
   if (error) {
